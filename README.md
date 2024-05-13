@@ -1,1 +1,1 @@
-# FL ICML 2023 Workshop
+Smoky Mountain Workshop on Early Developmental Learning and Embodied AI @ EDELAI 2024.
