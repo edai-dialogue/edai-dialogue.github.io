@@ -142,13 +142,14 @@ ul.no-bullets {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5px 15px 7px 15px;
-  margin-left: 5px;
-  font-size: 14px;
+  padding: 8px 15px 7px 15px;
+  margin-left: 80px;
+  font-size: 23px;
   color: #fff;
   white-space: nowrap;
   transition: 0.3s;
-  border-radius: 50px;
+  border-radius: 20px;
+  font-weight: bold; 
 }
 .navbar a i, .navbar a:focus i {
   font-size: 12px;
@@ -1141,6 +1142,8 @@ section {
 .team .member .member-img {
   position: relative;
   overflow: hidden;
+  
+  /* object-fit: cover; */
 }
 .team .member .social {
   position: absolute;
