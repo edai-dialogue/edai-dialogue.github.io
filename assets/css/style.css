@@ -92,6 +92,11 @@ ul.no-bullets {
   z-index: 997;
   transition: all 0.5s;
   background: rgba(42, 44, 57, 0.9);
+  
+  background: linear-gradient(rgba(42, 44, 57, 0.9), rgba(42, 44, 57, 0.9)), url('assets/img/mt.jpg'); /* Adding overlay */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 #header.header-transparent {
   background: transparent;
@@ -310,7 +315,11 @@ ul.no-bullets {
   width: 100%;
   overflow: hidden;
   position: relative;
-  background: linear-gradient(0deg, #117AB7 0%, #33364a 100%);
+  /* background: linear-gradient(0deg, #117AB7 0%, #33364a 100%); */
+  background-image: url('mt.jpg'); /* Ensure the path is correct */
+  background-size: cover; /* Ensures the background image covers the entire page */
+  background-position: center; /* Centers the background image */
+  background-repeat: no-repeat; /* Prevents the background image from repeating */
   padding: 0;
 }
 #hero .carousel-container {
