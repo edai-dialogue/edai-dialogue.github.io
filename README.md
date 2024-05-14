@@ -1,1 +1,1 @@
-Smoky Mountain Workshop on Early Developmental Learning and Embodied AI @ EDELAI 2024.
+Smoky Mountain Workshop on Early Developmental Intelligence and Embodied Intelligence @ EI², 2024.
