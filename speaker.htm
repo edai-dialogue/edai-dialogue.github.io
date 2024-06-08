@@ -6,24 +6,37 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Workshop on A Dialogue between Early Cognitive Development and Embodied AI</title>
 
-
   <link rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
 
-
   <link rel="stylesheet" href="css/style.css">
+  
+  <style>
+      .speaker {
+          display: flex;
+          align-items: flex-start;
+          margin-bottom: 20px;
+      }
+      .speaker img {
+          width: 128px; /* Ensure images are the same size */
+          height: 128px; /* Ensure images are the same size */
+          object-fit: cover; /* Ensure the image covers the entire area */
+          border-radius: 50%; /* Make images circular */
+          margin-right: 20px;
+      }
+      .speaker div {
+          max-width: 800px; /* Adjust the width as needed */
+      }
+  </style>
 </head>
 
 <body>
 
-<nav class="navbar has-shadow sticky" role="navigation"
-  aria-label="main navigation">
-  
+<nav class="navbar has-shadow sticky" role="navigation" aria-label="main navigation">
   <div class="mx-auto" style="width: 500px; display: flex; align-items: flex-end;">
     <img src="ai.jpg" alt="Workshop Icon" style="height: 50px; margin-right: 30px; margin-left: -25px; margin-top: -20px;">
     <a class="navbar-brand navbar-light bg-light" href="./index.html" style="line-height: 3.5;">A Dialogue between Early Cognitive Development and Embodied AI</a> 
   </div>
-  
   
   <div class="navbar-brand">
     <a class="navbar-item" href="./call.htm">
@@ -45,30 +58,18 @@
     <a class="navbar-item" href="./speaker.htm">
       Invited Speakers
     </a>
-
-    <!-- <a class="navbar-item" href="./sponsor.htm">
-      Sponsorship
-    </a> -->
   </div>
 </nav>
 
 <section class="section">
   <div class="columns">
-
     <aside class="menu is-4-tablet is-3-desktop is-2-widescreen">
-      <!-- Add your figure at the top -->
       <div class="box" style="margin-bottom: 20px;">
         <figure class="image" style="width: 450px; margin: 20 auto;">
           <img src="./dialogue.png" alt="Figure Description" style="width: 100%;">
         </figure>
       </div>
       
-      <!-- Existing sidebar content -->
-      <!-- <div class="box is-size-9" style="margin-top: 20px;">
-        <h1>Unite neural & cognitive scientists with AI researchers.</h1>
-        <h1>Explore learning dynamics at the forefront of intelligence.</h1>
-      </div>         -->
-
       <div class="box is-size-8" style="margin-top: 20px;">
         <h1 class="has-text-weight-bold">Important Dates: </h1>
         <ul>
@@ -79,24 +80,55 @@
           <li>Camera-ready Submission: November 30, 2024, AoE</li>
           <li>Workshop Date: December 14th or 15th, 2024</li>
         </ul>
-      </div>      
-
+      </div>           
     </aside>
 
-<!--   ###    MAIN CONTENT STARTS -->
-
-<div class="column content">
-  <h1 class="title pt-6">Invited Speakers</h1>
-  
-  <ul>
-    <li><b>Chen Yu (University of Texas - Austin)</b> is the Charles and Sarah Seay Regents Professor of the Department of Psychology, Central for Perceptual Systems, and Institute of Neural Science at the University of Texas at Austin. He is a fellow of the Cognitive Science Society and the Association of Psychological Science. He received the Robert L. Fantz Memorial Award from the American Psychological Foundation, the David Marr Prize from the Cognitive Science Society, and the ICIS Early Distinguished Contribution Award. He received several best paper awards from IEEE ICDL, Cognitive Science, and CVPR.</li>
-    <li><b>Roozbeh Mottaghi (FAIR, Meta) </b> is a Senior Research Scientist Manager at FAIR. Prior to joining FAIR, he was the Research Manager at the Allen Institute for AI (AI2). He obtained his PhD in Computer Science in 2013 from the University of California, Los Angeles. After PhD, he joined the Computer Science Department at Stanford University as a post-doctoral researcher. His research mainly focuses on embodied AI, reasoning via perception, and learning via interaction, and his work on large-scale Embodied AI received the Outstanding Paper Award at NeurIPS 2022.</li>
-    <li><b>Jochen Triesch (Frankfurt Institute for Advanced Studies - FIAS)</b> received his Diploma and Ph.D. degrees in Physics from the University of Bochum, Germany. After a two-year postdoc at the Computer Science Department of the University of Rochester, he became the Assistant Professor of the Cognitive Science Department at UC San Diego. He is now the Johanna Quandt Chair for Theoretical Life Sciences at FIAS, Germany. He received a Marie Curie Excellence Center Award of the European Union. His research interests span Computational Neuroscience, Machine Learning, and Developmental AI/Robotics.</li>
-    <li><b>Tianyi Zhou (University of Maryland)</b> is an Assistant Professor of Computer Science at the University of Maryland, College Park, and a member of UMIACS. He received a Ph.D. degree in computer science from the University of Washington. His recent works focus on curriculum learning, controllable and personalized AI models, human-AI alignment, and their applications on large language models, multi-modality models, and AIGC models. He has published ~100 papers at NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, CVPR, ICCV, KDD, AAAI, IJCAI, Machine Learning (Springer), IEEE TPAMI/TIP/TNNLS/TKDE, etc. He has served as an SPC member or area chair in AAAI, IJCAI, KDD, WACV, and ICPR.</li>
-    <li><b>Mark Wallace (Vanderbilt University)</b> is the holder of the Louise B. McGavock Endowed Chair in Neuroscience at Vanderbilt University and has served as the Director of the Vanderbilt Brain Institute. He is a fellow of AAAS and the Association for Psychological Science (APS). His work focuses upon the neural architecture of multisensory integration and its development. He now directs an international consortium supported by Reality Labs Research (a division of Meta) studying perceptual and cognitive development in children from birth to young adulthood in immersive, naturalistic environments.</li>
-    <li><b>Priya Panda (Yale University)</b> is an Assistant Professor in the Electrical Engineering Department at Yale University. She received her Ph.D. from Purdue University in 2019. During her internship at Intel Labs, she developed large-scale spiking neural network algorithms for benchmarking the Loihi chip. She is the recipient of the 2019 Amazon Research Award, 2022 Google Research Scholar Award, 2022 DARPA Riser Award, 2023 NSF CAREER Award. Her research interests lie in Neuromorphic Computing, Spiking Neural Networks, energy-efficient accelerators, and in-memory processing.</li>
-  </ul>
-</div>
-</section></body>
-
+    <div class="column content">
+      <h1 class="title pt-6">Invited Speakers</h1>
+      
+      <div class="speaker">
+          <img src="img/chenyu.jpeg" alt="Chen Yu">
+          <div>
+              <b>Chen Yu (University of Texas, Austin)</b> is the Charles and Sarah Seay Regents Professor of the Department of Psychology, Central for Perceptual Systems, and Institute of Neural Science at the University of Texas at Austin. He is a fellow of the Cognitive Science Society and the Association of Psychological Science. He received the Robert L. Fantz Memorial Award from the American Psychological Foundation, the David Marr Prize from the Cognitive Science Society, and the ICIS Early Distinguished Contribution Award. He received several best paper awards from IEEE ICDL, Cognitive Science, and CVPR.
+          </div>
+      </div>
+      
+      <div class="speaker">
+          <img src="img/roozbeh.jpg" alt="Roozbeh Mottaghi">
+          <div>
+              <b>Roozbeh Mottaghi (FAIR, Meta)</b> is a Senior Research Scientist Manager at FAIR. Prior to joining FAIR, he was the Research Manager at the Allen Institute for AI (AI2). He obtained his PhD in Computer Science in 2013 from the University of California, Los Angeles. After PhD, he joined the Computer Science Department at Stanford University as a post-doctoral researcher. His research mainly focuses on embodied AI, reasoning via perception, and learning via interaction, and his work on large-scale Embodied AI received the Outstanding Paper Award at NeurIPS 2022.
+          </div>
+      </div>
+      
+      <div class="speaker">
+          <img src="img/Dean.jpg" alt="Dean Buonomano">
+          <div>
+              <b>Dean Buonomano (University of California, Los Angeles)</b> is a professor in the Departments of Neurobiology and Psychology, and a member of the Integrative Center for Learning and Memory at UCLA. He is a computational and experimental neuroscientist, and leading expert on neural dynamics and how the brain tells time. He received his bachelor’s degree from the University of São Paulo, Campinas in Brazil, and his doctoral degree from the University of Texas Health Science Center, Houston. Buonomano is the author of Brain Bugs: How the Brain’s Flaws Shape our Lives and Your Brain is a Time Machine: The Neuroscience and Physics of Time.
+          </div>
+      </div>
+      
+      <div class="speaker">
+          <img src="img/Tianyi.jpeg" alt="Tianyi Zhou">
+          <div>
+              <b>Tianyi Zhou (University of Maryland)</b> is an Assistant Professor of Computer Science at the University of Maryland, College Park, and a member of UMIACS. He received a Ph.D. degree in computer science from the University of Washington. His recent works focus on curriculum learning, controllable and personalized AI models, human-AI alignment, and their applications on large language models, multi-modality models, and AIGC models. He has published ~100 papers at NeurIPS, ICML, ICLR, ACL, EMNLP, NAACL, CVPR, ICCV, KDD, AAAI, IJCAI, Machine Learning (Springer), IEEE TPAMI/TIP/TNNLS/TKDE, etc. He has served as an SPC member or area chair in AAAI, IJCAI, KDD, WACV, and ICPR.
+          </div>
+      </div>
+      
+      <div class="speaker">
+          <img src="img/Wallace.jpg" alt="Mark Wallace">
+          <div>
+              <b>Mark Wallace (Vanderbilt University)</b> is the holder of the Louise B. McGavock Endowed Chair in Neuroscience at Vanderbilt University and has served as the Director of the Vanderbilt Brain Institute. He is a fellow of AAAS and the Association for Psychological Science (APS). His work focuses upon the neural architecture of multisensory integration and its development. He now directs an international consortium supported by Reality Labs Research (a division of Meta) studying perceptual and cognitive development in children from birth to young adulthood in immersive, naturalistic environments.
+          </div>
+      </div>
+      
+      <div class="speaker">
+          <img src="img/panda.jpg" alt="Priya Panda">
+          <div>
+              <b>Priya Panda (Yale University)</b> is an Assistant Professor in the Electrical Engineering Department at Yale University. She received her Ph.D. from Purdue University in 2019. During her internship at Intel Labs, she developed large-scale spiking neural network algorithms for benchmarking the Loihi chip. She is the recipient of the 2019 Amazon Research Award, 2022 Google Research Scholar Award, 2022 DARPA Riser Award, 2023 NSF CAREER Award. Her research interests lie in Neuromorphic Computing, Spiking Neural Networks, energy-efficient accelerators, and in-memory processing.
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
 </html>
