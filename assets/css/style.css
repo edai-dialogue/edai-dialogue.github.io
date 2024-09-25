@@ -93,7 +93,7 @@ ul.no-bullets {
   transition: all 0.5s;
   background: rgba(42, 44, 57, 0.9);
   
-  background: linear-gradient(rgba(42, 44, 57, 0.9), rgba(42, 44, 57, 0.9)), url('assets/img/mt.jpg'); /* Adding overlay */
+  background: linear-gradient(rgba(42, 44, 57, 0.9), rgba(42, 44, 57, 0.9)), url('assets/img/ai_background.jpg'); /* Adding overlay */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -316,7 +316,7 @@ ul.no-bullets {
   overflow: hidden;
   position: relative;
   /* background: linear-gradient(0deg, #117AB7 0%, #33364a 100%); */
-  background-image: url('mt.jpg'); /* Ensure the path is correct */
+  background-image: url('ai_background.jpg'); /* Ensure the path is correct */
   background-size: cover; /* Ensures the background image covers the entire page */
   background-position: center; /* Centers the background image */
   background-repeat: no-repeat; /* Prevents the background image from repeating */
