@@ -1,1 +1,1 @@
-Smoky Mountain Workshop on Early Developmental Intelligence and Embodied Intelligence @ EI², 2024.
+Bridging Early Cognitive Development and Embodied AI for Advancing Robotic Intelligence
